@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Check } from "lucide-react";
+import Btnplain from "./btnplain";
+import Btnlg from "./Btnlg";
 
 // Dynamic data for sections
 const sections = [
@@ -151,12 +153,8 @@ const RouteOptimization = () => {
 
         {/* CTA Buttons */}
         <div className="flex justify-center mt-12 space-x-4">
-          <button className="bg-gradient-to-r from-purple-500 to-blue-600 text-white px-6 py-3 rounded-md cursor-pointer transform transition-all duration-300 ease-in-out hover:-translate-y-1">
-            View three pricing options
-          </button>
-          <button className="border border-purple-600 text-purple-600 px-6 py-3 rounded-md transform transition-all duration-300 ease-in-out hover:-translate-y-1 cursor-pointer">
-            Explore all APIs and SDKs
-          </button>
+          <Btnlg text="View three pricing options" />
+          <Btnplain text="Explore all APIs and SDKs" />
         </div>
       </div>
     </section>
