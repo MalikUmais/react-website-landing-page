@@ -1,4 +1,5 @@
 import React from "react";
+import Btnplain from "./btnplain";
 
 const caseStudies = [
   {
@@ -62,9 +63,7 @@ const CaseStudies = () => {
 
         {/* CTA Button */}
         <div className="mt-12">
-          <button className="border border-purple-600 text-purple-600 px-6 py-3 rounded-md   cursor-pointer transform transition-all duration-300 ease-in-out hover:-translate-y-1 ">
-            View more case studies
-          </button>
+          <Btnplain text="View more case studies" />
         </div>
       </div>
     </section>

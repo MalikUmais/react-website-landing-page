@@ -1,6 +1,8 @@
 import React from "react";
 import { ArrowRight } from "lucide-react";
 import Button from "./Button";
+import Btnplain from "./btnplain";
+import Btnlg from "./Btnlg";
 
 const steps = [
   {
@@ -80,11 +82,11 @@ const OnboardingSteps = () => {
 
         {/* Buttons */}
         <div className="mt-20 flex justify-center gap-4">
-          <Button
+          <Btnlg
             className={`${btnClasses} text-white bg-gradient-to-r from-purple-500 to-blue-600`}
             text="Start Trial"
           />
-          <Button
+          <Btnplain
             className={`${btnClasses} px-5 border border-purple-600 text-purple-600`}
             text="Read API docs"
           />

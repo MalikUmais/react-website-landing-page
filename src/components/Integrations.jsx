@@ -1,4 +1,5 @@
 import React from "react";
+import Btnplain from "./btnplain";
 
 const Integrations = () => {
   return (
@@ -13,9 +14,7 @@ const Integrations = () => {
             Add advanced routing and dispatch capabilities to your telematics
             and ERP systems.
           </p>
-          <button className="border border-purple-600 text-purple-600 px-6 py-3 rounded-md   cursor-pointer transform transition-all duration-300 ease-in-out hover:-translate-y-1">
-            View Integrations
-          </button>
+          <Btnplain text="View Integrations"/>
         </div>
 
         {/* Right Content (Image Placeholder) */}

@@ -1,5 +1,7 @@
 import React from "react";
 import Button from "./Button";
+import Btnlg from "./Btnlg";
+import Btnplain from "./btnplain";
 
 function AstContainer() {
   const btnClasses = "text-md px-4 py-2 cursor-pointer rounded-lg";
@@ -15,14 +17,8 @@ function AstContainer() {
 
         {/* Buttons on the right */}
         <div className="flex flex-col sm:flex-row gap-4 shrink-0">
-          <Button
-            className={`${btnClasses} text-white bg-gradient-to-r from-purple-500 to-blue-600 hover:opacity-90 transition-opacity duration-300`}
-            text="Request a Live Demo"
-          />
-          <Button
-            className={`${btnClasses} border border-purple-600 text-purple-600 hover:bg-purple-50 transition-colors duration-300`}
-            text="Read the Docs"
-          />
+          <Btnlg text="Request a Live Demo" />
+          <Btnplain text="Read the Docs" />
         </div>
       </div>
     </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import Btnlg from "./Btnlg";
 
 const partners = [
   { id: 1, name: "Accenture", logo: "assets/accenture.png" },
@@ -38,9 +39,7 @@ const Partners = () => {
         </div>
 
         {/* CTA Button */}
-        <button className="bg-gradient-to-r from-purple-600 to-blue-600 text-white px-6 py-3 rounded-md font-medium cursor-pointer transform transition-all duration-300 ease-in-out hover:-translate-y-1">
-          Learn More
-        </button>
+        <Btnlg text="Learn More"/>
       </div>
     </section>
   );

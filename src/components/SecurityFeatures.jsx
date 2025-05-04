@@ -1,5 +1,6 @@
 import React from "react";
 import { Check } from "lucide-react";
+import Btnplain from "./btnplain";
 
 const features = [
   "SOC 2 Type II certified",
@@ -28,9 +29,7 @@ const SecurityFeatures = () => {
           </div>
         ))}
       </div>
-      <button className="border border-purple-600 text-purple-600  px-4 py-2 rounded-md  cursor-pointer transform transition-all duration-300 ease-in-out hover:-translate-y-1">
-        Learn More
-      </button>
+      <Btnplain text="Learn More"/>
     </div>
   );
 };
