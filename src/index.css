@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;700&family=Montserrat:wght@400;700&family=Dancing+Script&display=swap');
+@import "tailwindcss";
+
+
+@layer base {
+  :root {
+    --font-poppins: 'Poppins', sans-serif;
+    --font-roboto: 'Roboto', sans-serif;
+    --font-montserrat: 'Montserrat', sans-serif;
+    --font-dancing: 'Dancing Script', cursive;
+  }
+
+  .font-poppins {
+    font-family: var(--font-poppins);
+  }
+
+  .font-roboto {
+    font-family: var(--font-roboto);
+  }
+
+  .font-montserrat {
+    font-family: var(--font-montserrat);
+  }
+
+  .font-dancing {
+    font-family: var(--font-dancing);
+  }
+}
+
+
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 10s linear infinite;
+}
