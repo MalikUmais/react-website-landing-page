@@ -47,7 +47,7 @@ const navLinks = [
 
 const Header = () => {
   const linkClasses =
-    "cursor-pointer text-lg hover:text-purple-600 transition-colors duration-300 ease-in-out font-poppins";
+    "cursor-pointer text-lg hover:text-[var(--custom-green)] transition-colors duration-300 ease-in-out font-poppins";
   const btnClasses = "text-md px-4 py-2 cursor-pointer font-poppins rounded-lg";
 
   return (
@@ -55,11 +55,7 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
         {/* Logo */}
         <div className="flex items-center space-x-2">
-          <img
-            src="https://nextbillion.ai/wp-content/uploads/2022/10/nb-logo-colored-80x73.png" // replace with your logo
-            alt="NextBillion.ai"
-            className="h-18"
-          />
+          LOGO
         </div>
 
         {/* Navigation */}
@@ -73,7 +69,7 @@ const Header = () => {
                     <a
                       key={idx}
                       href={item.link}
-                      className="block px-4 py-2 text-gray-700 hover:bg-purple-50 hover:text-purple-600 transition"
+                      className="block px-4 py-2 text-gray-700 hover:bg-green-50 hover:text-[var(--custom-green)] transition"
                     >
                       {item.label}
                     </a>
@@ -87,12 +83,12 @@ const Header = () => {
         {/* CTA Buttons */}
         <div className="flex space-x-4">
           <Button
-            className={`${btnClasses} px-5 border border-purple-600 text-purple-600 hover:bg-purple-50 transition-colors duration-300`}
+            className={`${btnClasses} px-5 border border-[var(--custom-green)] text-[var(--custom-green)]   transition-colors duration-300`}
             text="Start Trial"
           />
 
           <Button
-            className={`${btnClasses} text-white bg-gradient-to-r from-purple-500 to-blue-600 hover:opacity-90 transition-opacity duration-300`}
+            className={`${btnClasses} text-white bg-gradient-to-r from-[var(--custom-green)] to-[var(--custom-green-dark)] `}
             text="Request a Demo"
           />
         </div>

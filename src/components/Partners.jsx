@@ -14,12 +14,10 @@ const Partners = () => {
       <div className=" px-4 text-center">
         {/* Header */}
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-          Partner with Us: Build Smarter Location & Logistics Solutions
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, expedita.
         </h2>
         <p className="text-gray-600 mb-8">
-          Are you an IT services company building location-based software for
-          businesses? Partner with NextBillion.ai to get exclusive benefits,
-          premium technical support & white-label our solutions.
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit, molestias inventore. Earum animi nisi sapiente voluptate modi magni reprehenderit at officia inventore sit. Iste ea reiciendis magni libero quae recusandae!
         </p>
 
         {/* Partner Logos */}

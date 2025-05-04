@@ -27,7 +27,12 @@
   }
 }
 
-
+:root {
+  --custom-green-dark: #13714C;
+  --custom-green: #3AB67D;
+  --custom-green-light: #A2E494;
+  --custom-gray: #E9EBED;
+}
 
 @keyframes scroll {
   0% {

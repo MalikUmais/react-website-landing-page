@@ -7,7 +7,7 @@ import Btnlg from "./Btnlg";
 const sections = [
   {
     id: 1,
-    title: "Route Optimization API",
+    title: "Lorem ipsum dolor sit amet.",
     description:
       "Get efficient routes for your vehicle drivers and field service agents to perform a series of deliveries or tasks.",
     features: [
@@ -37,7 +37,7 @@ const sections = [
   },
   {
     id: 2,
-    title: "Distance Matrix API",
+    title: "Lorem ipsum dolor sit amet.",
     description:
       "Get accurate transit ETAs and distances from all origins to destinations without high cost or latency.",
     features: [
@@ -51,7 +51,7 @@ const sections = [
   },
   {
     id: 3,
-    title: "Directions API",
+    title: "Lorem ipsum dolor sit amet.",
     description:
       "Compute the shortest or fastest route between an origin and a destination for cars, motorcycles, or trucks.",
     features: [
@@ -99,14 +99,12 @@ const RouteOptimization = () => {
                     key={idx}
                     className="flex items-center space-x-2 text-gray-700"
                   >
-                    <Check className="w-5 h-5 text-purple-600" />
+                    <Check className="w-5 h-5 text-[var(--custom-green)]" />
                     <span>{feature}</span>
                   </div>
                 ))}
               </div>
-              <button className="border border-purple-600 text-purple-600 px-6 py-3 rounded-md transform transition-all duration-300 ease-in-out hover:-translate-y-1 cursor-pointer">
-                {section.buttonText}
-              </button>
+              <Btnplain text={section.buttonText}/>
             </div>
 
             {/* Right Content */}
@@ -137,7 +135,7 @@ const RouteOptimization = () => {
                         onClick={() => setCurrentSlide(index)}
                         className={`w-3 h-3 rounded-full ${
                           currentSlide === index
-                            ? "bg-purple-600"
+                            ? "bg-[var(--custom-green)]"
                             : "bg-gray-400 hover:bg-gray-500"
                         }`}
                       ></button>

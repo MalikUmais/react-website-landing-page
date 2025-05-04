@@ -4,22 +4,22 @@ import Btnplain from "./btnplain";
 const caseStudies = [
   {
     id: 1,
-    title: "Field Services",
-    description: "Reduction in scheduling time",
+    title: "Lorem ipsum dolor sit.",
+    description: "Lorem ipsum dolor sit amet consectetur.",
     percentage: "40%",
     image: "assets/health.png", // Replace with the actual image path
   },
   {
     id: 2,
-    title: "Middle Mile Logistics",
-    description: "API costs savings",
+    title: "Lorem ipsum dolor sit.",
+    description: "Lorem ipsum dolor sit amet consectetur.",
     percentage: "30%",
     image: "assets/map.png", // Replace with the actual image path
   },
   {
     id: 3,
-    title: "Logistics Software",
-    description: "Reduction in Operating Costs",
+    title: "Lorem ipsum dolor sit.",
+    description: "Lorem ipsum dolor sit amet consectetur.",
     percentage: "35%",
     image: "assets/truck.png", // Replace with the actual image path
   },
@@ -30,12 +30,11 @@ const CaseStudies = () => {
     <section className="bg-gray-50 py-16 md:py-20 max-w-7xl mx-auto rounded-xl m-20">
       <div className="max-w-7xl mx-auto px-4 text-center">
         {/* Header */}
-        <p className="text-sm md:text-base uppercase tracking-wider text-purple-600 font-medium mb-4">
+        <p className="text-sm md:text-base uppercase tracking-wider text-[var(--custom-green)] font-medium mb-4">
           Case Study
         </p>
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-12">
-          Learn how transportation and logistics businesses improve operational
-          KPIs with NextBillion.ai
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem consequatur aspernatur delectus rem doloribus.
         </h2>
 
         {/* Case Studies Grid */}
@@ -53,7 +52,7 @@ const CaseStudies = () => {
               <h3 className="text-lg font-medium text-gray-900 mb-2">
                 {study.title}
               </h3>
-              <p className="bg-gradient-to-r from-purple-500 to-blue-600 bg-clip-text text-transparent text-3xl font-bold mb-1">
+              <p className="bg-gradient-to-r from-[var(--custom-green)] to-[var(--custom-green-dark)] bg-clip-text text-transparent text-3xl font-bold mb-1">
                 {study.percentage}
               </p>
               <p className="text-gray-600">{study.description}</p>

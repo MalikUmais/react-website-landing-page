@@ -18,8 +18,8 @@ const LogoCarousel = () => {
     <>
       {/* Title */}
       <p className="text-center text-black  mt-20 text-2xl font-bold">
-        Product and tech leaders in large-scale logistics companies use{" "}
-        <span>NextBillion.ai</span>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, iusto!{" "}
+        <span>Lorem, ipsum dolor.</span>
       </p>
       <div className="m-8 py-8 bg-gray-50 rounded-lg shadow-md max-w-4xl mx-auto">
         {/* Scrolling Logos */}

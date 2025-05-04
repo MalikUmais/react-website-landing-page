@@ -8,7 +8,7 @@ const Footer = () => {
     "flex space-x-2  md:space-x-3 border border-white rounded-lg p-2";
 
   return (
-    <footer className="bg-gradient-to-r from-purple-700 to-blue-800 text-white text-sm font-montserrat">
+    <footer className="bg-gradient-to-r from-[var(--custom-green)] to-[var(--custom-green-dark)] text-white text-sm font-montserrat">
       <div className="container mx-auto px-4 sm:px-6 py-8 sm:py-12">
         {/* Main footer content */}
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 lg:gap-10">
@@ -140,7 +140,7 @@ const Footer = () => {
         </div>
       </div>
       {/* Bottom Legal Bar */}
-      <div className="bg-[#002C66] text-white bottom-0  text-sm p-8 ">
+      <div className="bg-[var(--custom-green-dark)] text-white bottom-0  text-sm p-8 ">
         <div className="w-full mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-2">
           <p>© 2025 NextBillion.ai All Rights Reserved</p>
           <div className="flex flex-wrap justify-center gap-4">

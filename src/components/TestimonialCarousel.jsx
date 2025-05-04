@@ -6,25 +6,25 @@ const TestimonialCarousel = () => {
       id: 1,
       image:
         "https://nextbillion.ai/wp-content/themes/nb-child/assets/images/page-specific/product/route-api/new/v3/james-new-opt.webp",
-      name: "Yantisa Akhadi",
-      position: "Strategy and Partnership Manager, Gojek",
-      text: "I admire NextBillion.ai's fast response and friendly manners whenever we need professional support in geospatial data processing. They have delivered a valuable service and support to our company that we appreciate.",
+      name: "Lorem, ipsum.",
+      position: "Lorem ipsum dolor sit amet.",
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, quis pariatur? Ab, quas provident! Earum ducimus nam et praesentium similique cupiditate deleniti sapiente rem optio ipsum? Voluptates, eius.",
     },
     {
       id: 2,
       image:
         "https://nextbillion.ai/wp-content/themes/nb-child/assets/images/page-specific/product/route-api/new/v3/yantisa-akhadi-new-opt.webp",
-      name: "John Doe",
-      position: "Logistics Manager, ABC Corp",
-      text: "NextBillion.ai has been instrumental in optimizing our delivery routes, saving us time and reducing costs significantly. Their support team is always ready to assist.",
+      name: "Lorem, ipsum.",
+      position: "Lorem ipsum dolor sit, amet consectetur adipisicing.",
+      text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus voluptate enim necessitatibus est aspernatur iure tempore aliquam temporibus obcaecati qui.",
     },
     {
       id: 3,
       image:
         "https://nextbillion.ai/wp-content/themes/nb-child/assets/images/page-specific/product/route-api/new/v3/james-new-opt-new.webp",
-      name: "Jane Smith",
-      position: "Operations Head, XYZ Ltd",
-      text: "The API solutions provided by NextBillion.ai have streamlined our operations and improved customer satisfaction. Highly recommended!",
+      name: "Lorem, ipsum.",
+      position: "Lorem ipsum dolor sit amet consectetur.",
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, facere deserunt neque, nesciunt aperiam quae suscipit.",
     },
   ];
 
@@ -85,7 +85,7 @@ const TestimonialCarousel = () => {
             <div
               key={index}
               className={`w-3 h-3 rounded-full ${
-                currentIndex === index ? "bg-purple-500" : "bg-gray-300 "
+                currentIndex === index ? "bg-[var(--custom-green)]" : "bg-gray-300 "
               }`}
             ></div>
           ))}

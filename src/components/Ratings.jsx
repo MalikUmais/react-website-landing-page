@@ -52,8 +52,7 @@ const Ratings = () => {
       <div className="max-w-6xl mx-auto px-4 text-center">
         {/* Header */}
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8">
-          Logistics product managers and developers love NextBillion.ai APIs &
-          SDKs
+          Lorem ipsum, dolor sit amet consectetur adipisicing.
         </h2>
 
         {/* Badges */}

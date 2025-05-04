@@ -7,21 +7,21 @@ import Btnlg from "./Btnlg";
 const steps = [
   {
     id: 1,
-    title: "Get the trial API key",
+    title: "Lorem ipsum dolor sit amet.",
     description:
-      "Book a demo or a trial onboarding call. And get the trial key.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem consequatur aspernatur delectus rem doloribus.",
     img: "/assets/image1.png", // replace with actual image path
   },
   {
     id: 2,
-    title: "Test it with your tech and data",
-    description: "Test the APIs with your tools, data, and constraints.",
+    title: "Lorem ipsum dolor sit amet.",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem consequatur aspernatur delectus rem doloribus.",
     img: "/assets/image2.png", // replace with actual image path
   },
   {
     id: 3,
-    title: "Push it to production",
-    description: "Integrate NextBillion route planning APIs with your systems.",
+    title: "Lorem ipsum dolor sit amet.",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem consequatur aspernatur delectus rem doloribus.",
     img: "/assets/image3.png", // replace with actual image path
   },
 ];
@@ -32,28 +32,29 @@ const OnboardingSteps = () => {
 
   return (
     <section className="bg-[#FAF8FF] py-16">
+      
       <div className="max-w-7xl mx-auto px-4 text-center">
         <h2 className="text-2xl md:text-3xl font-bold mb-12">
-          Test and go live with{" "}
-          <span className="text-purple-700">NextBillion.ai</span> route
+          Lorem ipsum dolor sit amet.{" "}
+          <span className="text-[var(--custom-green)]">Lorem, dolor.</span> lorem
           <br />
-          planning APIs within a week.
+          Lorem ipsum dolor sit amet.
         </h2>
 
         <div className="grid md:grid-cols-3 gap-8 relative">
           {steps.map((step, index) => (
             <div key={step.id} className="relative">
               {/* Number circle */}
-              <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-8 h-8   rounded-full bg-purple-700 text-white text-sm font-bold flex items-center justify-center z-20 ">
+              <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-8 h-8   rounded-full bg-[var(--custom-green)] text-white text-sm font-bold flex items-center justify-center z-20 ">
                 {step.id}
               </div>
 
               {/* Arrows - only display between steps (after 1 and 2) */}
               {index < steps.length - 1 && (
                 <div className="hidden md:block absolute top-0 left-full transform -translate-x-1/2  z-10 w-full">
-                  <div className="h-1 w-full border-t border-dashed border-purple-400 relative">
+                  <div className="h-1 w-full border-t border-dashed border-[var(--custom-green-light)] relative">
                     <ArrowRight
-                      className="absolute -right-1 -top-2.5 text-purple-600"
+                      className="absolute -right-1 -top-2.5 text-[var(--custom-green)]"
                       size={20}
                     />
                   </div>
@@ -83,13 +84,14 @@ const OnboardingSteps = () => {
         {/* Buttons */}
         <div className="mt-20 flex justify-center gap-4">
           <Btnlg
-            className={`${btnClasses} text-white bg-gradient-to-r from-purple-500 to-blue-600`}
-            text="Start Trial"
+
+            text="dolor sit."
           />
           <Btnplain
-            className={`${btnClasses} px-5 border border-purple-600 text-purple-600`}
-            text="Read API docs"
+
+            text="Lorem, ipsum dolor."
           />
+          
         </div>
       </div>
     </section>
